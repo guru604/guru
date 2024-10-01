@@ -1,0 +1,72 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    background: url(https___todoist.com_static_product-ui_backgrounds_wave-one-red.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    
+    max-width: 400px;
+    margin: auto;
+    background: url(images.jfif);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
